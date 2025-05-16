@@ -31,7 +31,7 @@
     ],
     "moduleId": "UIModule1",
     "name": "privateQueries",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }
