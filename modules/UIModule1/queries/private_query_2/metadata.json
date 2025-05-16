@@ -1,12 +1,12 @@
 {
-  "gitSyncId": "34673c07-cba7-4749-8bb6-e3ef9eb26d29_2c154e9c-7d44-4e2b-b2e0-5b6562beba97",
-  "id": "UIModule1_privateQueries",
+  "gitSyncId": "1b7fe0f0-12a7-426c-974c-5fde2da35c95_5bd3ded2-189f-4f30-8882-2340efb394aa",
+  "id": "UIModule1_private_query_2",
   "isPublic": false,
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM mei.categorias limit {{inputs.private_query_limit}};",
+      "body": "SELECT * FROM public.\"users\" LIMIT {{inputs.private_query_2_limit}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -30,7 +30,7 @@
       }
     ],
     "moduleId": "UIModule1",
-    "name": "privateQueries",
+    "name": "private_query_2",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

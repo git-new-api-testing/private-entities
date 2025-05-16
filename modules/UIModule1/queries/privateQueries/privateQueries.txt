@@ -1,1 +1,1 @@
-SELECT * FROM mei.categorias;
+SELECT * FROM mei.categorias limit {{inputs.private_query_limit}};

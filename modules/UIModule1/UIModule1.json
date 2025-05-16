@@ -5,7 +5,22 @@
   "unpublishedModule": {
     "inputsForm": [
       {
-        "children": [],
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "5",
+            "id": "ibtftyjqbw",
+            "label": "private_query_limit",
+            "propertyName": "inputs.private_query_limit"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "12",
+            "id": "domcluhyso",
+            "label": "private_query_2_limit",
+            "propertyName": "inputs.private_query_2_limit"
+          }
+        ],
         "id": "dfxxnzevlq",
         "sectionName": ""
       }
